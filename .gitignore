@@ -1,0 +1,24 @@
+# python
+__pycache__/
+*.pyc
+
+# data (never leak personal audio)
+data/
+Real Voice Dataset/
+Recorded Voice Dataset/
+Audio/
+Spoof Data/
+
+# virtual environments
+.venv/
+env/
+VoiceS/
+
+# model cache formats
+*.npy
+*.pth
+*.pkl
+
+# OS stuff
+.DS_Store
+Thumbs.db

@@ -1,0 +1,8 @@
+numpy
+torch
+torchaudio
+soundfile
+pyyaml
+scikit-learn
+joblib
+

@@ -1,0 +1,22 @@
+# config.yaml
+
+# Model + centroid
+model_path: "ge2e_encoder.pth"
+centroid_path: "varun_centroid.npy"
+
+# Data folders
+live_dir: "Real Voice Dataset"        # enrollment utterances
+test_file: "varun_test_01.wav"    # test utterance
+fake_dir: "Fake_varun_test_01.wav"      # fake utterances
+Recorded_Voice_Dataset: "Recorded Voice Dataset" # recorded utterances
+spoof_model_path: "spoof_rf.pkl"  # trained spoof detector
+
+
+# Audio & features
+sample_rate: 16000
+n_mels: 40
+win_ms: 25
+hop_ms: 10
+
+# Verification
+threshold: 0.7   # we’ll tune this
