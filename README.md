@@ -56,13 +56,13 @@ This project is therefore a research prototype combining:
 ## 5. Data Setup
 
 
-    Real Voice Dataset/            # LIVE recordings (Varun)
-        varun_01.wav
-        varun_02.wav
+    Real Voice Dataset/            # LIVE recordings (User)
+        User_01.wav
+        User_02.wav
         ...
-    Recorded Voice Dataset/        # REPLAY recordings (Varun playback)
-        varun_Recorded_01.wav
-        varun_Recorded_02.wav
+    Recorded Voice Dataset/        # REPLAY recordings (User playback)
+        User_Recorded_01.wav
+        User_Recorded_02.wav
         ...
     
     (optional)
@@ -77,3 +77,4 @@ This project is therefore a research prototype combining:
 ## 8. Current Result
 
 ## 9.Future Work
+
